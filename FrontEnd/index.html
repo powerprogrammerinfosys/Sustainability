@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Carbon Emission</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="./index.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="firstTitle">
+                        <h1>Dashboard</h1>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-4">
+                            <h4 class="dropDownClass">Choose Your Category:</h4>
+                            <select id="firstDropDown" class="form-control">
+                                    <option value="chooseCategory">Choose your category</option>
+                                    <option value="electricity">Electricity Generation</option>
+                            </select>
+                    </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                    <div class="mainTitle">
+                        <h4>Amount of carbon emitted from 1990</h4>
+                    </div>
+                 </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div id="barGraph"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row secondRow">
+                <div class="col-md-12">
+                        <div class="firstTitle">
+                                <h4>Specific Date</h4>
+                                <hr />
+                        </div>
+                </div>
+             </div>   
+         
+            <div class="row thirdRow">
+                <div  class="col-md-4">
+                    <div id="valueDiv"></div>
+                </div>
+                <div class="col-md-4">
+                    <div id="causeDiv" ></div>
+                </div>
+            </div>
+            <div class="row fourthrow">
+                    <div class="col-md-12">
+                            <div class="firstTitle">
+                                    <h4>Comparision</h4>
+                                    <hr />
+                            </div>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div id="piechart"></div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
